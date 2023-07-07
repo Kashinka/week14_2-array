@@ -36,3 +36,10 @@ const emeraldCityHeroes = ['Лев', 'Дровосек', 'Страшила'];
 emeraldCityHeroes.push('Элли', 'Тотошка')
 console.log(emeraldCityHeroes); // ['Лев', 'Дровосек', 'Страшила', 'Элли', 'Тотошка']
 
+//task 4
+// Выведите в консоль Комара
+const insects = ['Бабочка', 'Мотылёк', 'Божья коровка', 'Комар'];
+
+// Ваш код
+console.log(insects.pop()); //Комар
+
