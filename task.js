@@ -8,8 +8,8 @@ console.log(firstGuest);
 
 // 2. Выведите в кносоль третьего гостя
 const thirdGuest = guestList[2];
-console.log(thirdGuest);
+console.log(thirdGuest);// Шелдон
 
 // 3. Выведите в консоль девятьсот девятого гостя
 const ninehundredninthGuest = guestList[908];
-console.log(ninehundredninthGuest);
+console.log(ninehundredninthGuest); //underfined
