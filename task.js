@@ -27,3 +27,12 @@ const arr2 = [4, 5, 6];
 
 const mergedArray = [...arr1, ...arr2];
 console.log(mergedArray); // [1, 2, 3, 4, 5, 6]
+
+//task 3
+// Добавьте в массив героев произведения: Элли и Тотошку
+
+const emeraldCityHeroes = ['Лев', 'Дровосек', 'Страшила'];
+// ваш код
+emeraldCityHeroes.push('Элли', 'Тотошка')
+console.log(emeraldCityHeroes); // ['Лев', 'Дровосек', 'Страшила', 'Элли', 'Тотошка']
+
