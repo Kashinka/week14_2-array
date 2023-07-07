@@ -43,3 +43,12 @@ const insects = ['Бабочка', 'Мотылёк', 'Божья коровка'
 // Ваш код
 console.log(insects.pop()); //Комар
 
+//task 5
+// удалите лишний город методом shift и выведите его в консоль
+const cities = ['Воркута', 'Рим', 'Неаполь'];
+
+// Ваш код
+const russianCity = cities.shift();
+console.log(russianCity); // Воркута
+
+
