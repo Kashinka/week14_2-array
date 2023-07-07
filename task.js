@@ -51,4 +51,16 @@ const cities = ['Воркута', 'Рим', 'Неаполь'];
 const russianCity = cities.shift();
 console.log(russianCity); // Воркута
 
+//task 6
+// У вас есть массив со списком покупок, и вам необходимо вывести каждое слово в консоль, добавив в начало префикс "Purchase:  ".
 
+const shoppingList = ['milk', 'bread', 'eggs'];
+
+// Ваш код
+shoppingList.forEach(function(item) {
+    console.log('Purchase: ' + item);
+});
+// Вывод в консоль:
+// Purchase: milk
+// Purchase: bread
+// Purchase: eggs
