@@ -27,7 +27,7 @@ console.log(minimum); // выводим минимальный балл
 
 const goodGrade = grades.filter(el=>el >= 60); // считаем хорошие оценки, выше или равные 60 баллам
 
-console.log(goodGrade); // выводим хорошие оценки в консоль
+console.log(goodGrade.length); // выводим число студентов с хорошими баллами
 
 const baddGrade = grades.filter(el=>el < 60); // отбираем плохие оценки
 
