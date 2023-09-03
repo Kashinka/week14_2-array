@@ -1,4 +1,4 @@
-let grades = [];
+let grades = []; // создаем пустой массив для оценок
 
 grades[0] = Math.floor(Math.random() * 101);
 grades[1] = Math.floor(Math.random() * 101);
