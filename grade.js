@@ -16,3 +16,7 @@ console.log(grades);
 const sum = grades.reduce((a, b) => a + b, 0); // считаем сумму баллов студентов
 const average = (sum / grades.length) || 0; // считаем средний балл студентов
 console.log(average); // выводим средний балл в консоль
+
+const maximum = Math.max( ...grades ); // вычисляем максимальный балл среди оценок студентов
+
+console.log(maximum); // выводим максимальный балл
