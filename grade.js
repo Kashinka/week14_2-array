@@ -24,3 +24,7 @@ console.log(maximum); // выводим максимальный балл
 const minimum = Math.min( ...grades ); // вычисляем минимальный балл среди оценок студентов
 
 console.log(minimum); // выводим минимальный балл
+
+const goodGrade = grades.filter(el=>el >= 60); // считаем хорошие оценки, выше или равные 60 баллам
+
+console.log(goodGrade); // выводим хорошие оценки в консоль
